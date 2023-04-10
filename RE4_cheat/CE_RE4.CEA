@@ -1,0 +1,85 @@
+{
+============================================================
+ Resident Evil 4 HD Ultimate Edition (Steam Version)
+ Game Version  : 1.0.18384.1
+ Author        : Apache81
+ CE Version    : 6.3
+ Table Version : 1.4
+ Script Version: 2.0
+ Script Cheat  : Infinite Health
+
+ History:
+    18-June-2013 v1.4 -> bio.exe v1.0.18384.1
+       - Updated all the pointers
+
+    23-March-2014 v1.3 -> bio4.exe v1.0.13328.1
+       - AOB scan implemented for all the scripts
+
+    20-March-2014 v1.2 -> bio4.exe v1.0.13328.1
+       - Infinite ammo (script)
+
+    19-March-2014 v1.1 -> bio4.exe v1.0.13328.1
+       - Updated all the pointers
+       - Updated the opcodes
+
+    02-March-2014 v1.0 -> bio4.exe v1.0
+       - Infinite health (script)
+       - Infinite Ashley's health (script)
+       - Number of saves for the current session (pointer)
+       - Pesetas amount (pointer)
+       - The Mercenaries score (pointer)
+============================================================
+}
+
+[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+/* mi assicuro di abilitare il cheat solo se l'istruzione all'indirizzo statico
+   corrisponde a quello che devo cambiare
+ */
+//assert("bio4.exe"+1B5154,66 29 BE B4 4F 00 00)
+
+alloc(newmem,512)
+label(returnhere)
+label(exit)
+// AOB: creo lo spazio per alvare il risultato dell'aob scan
+label(aobresult)
+registersymbol(aobresult)
+// AOB: scansione della memoria alla ricerca dell'opcode
+aobscan(healthopcode,66 29 BE B4 4F 00 00)
+
+newmem: //this is allocated memory, you have read,write,execute access
+   // salvo eax
+   push eax
+   // metto in ax il valore massimo della salute
+   mov ax,[esi+9C40]
+   // metto il valore max della salute nel valore corrente della salute
+   mov [esi+9C30],ax
+   // ripristino eax
+   pop eax
+   jmp exit
+
+exit:
+   jmp returnhere
+
+//"bio4.exe"+1B5154:
+// AOB: scambio il valore statico dell'opcode col nome della scansione che ho fatto
+healthopcode:
+// AOB: salvo il valore della scansione nell'apposita variabile
+aobresult:
+   jmp newmem
+   nop
+   nop
+returnhere:
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+
+//"bio4.exe"+1B5154:
+// AOB: scambio il valore statico dell'opcode col nome della scansione che ho fatto
+aobresult:
+   sub [esi+4FB4],di
+   //Alt: db 66 29 BE B4 4F 00 00
+
+// AOB: distruggo la variabile creata
+unregistersymbol(aobresult)

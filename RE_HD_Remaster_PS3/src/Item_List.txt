@@ -1,0 +1,133 @@
+00 Nothing
+01 Knive
+02 Knive
+03 Handgun
+04 Self-defense gun
+05 Handgun (inf ammo)
+06 Shotgun
+07 Grenade Launcher
+08 Grenade Launcher
+09 Grenade Launcher
+0A Rocket Launcher
+0B Magnum Revolver
+0C Flamethrower
+0D Assault Shotgun
+0E Rocket Launcher (inf Ammo)
+0F Barry's 44Magnum
+10 Grenade Shells
+11 Handgun Magazine
+12 Shotgun Shells
+13 Acid Shells
+14 Incendiary Shells
+15 Golden Arrow
+16 Book Of Curess
+17 Coin
+18 Collar
+19 Magnum Round
+1A Broach
+1B Fuel Canteen
+1C Arrowhead
+1D Imitation Of A Key
+1E Residence Key (Gallery)
+1F Fuel Supply Capsule
+20 Musical Score
+21 First Aid Spray
+22 Green Herb
+23 Red Herb
+24 Blue Herb
+25 Mixed Herbs (2 Green)
+26 Mixed Herbs (3 Green)
+27 Mixed Herbs (Red-Green)
+28 Mixed Herbs (Brown)
+29 Mixed Herbs (BLue-Green Small)
+2A Mixed Herbs (BLue-Green Medium)
+2B Lockpick
+2C Old Key (Open any That Can Be Locked Picked)
+2D Mansion Key (Emblem Of Sword)
+2E Mansion Key (Emblem Of Armor)
+2F Mansion Key (Emblem Of Shield)
+30 Mansion Key (Emblem Of Helmet)
+31 Residence Key (Room 001)
+32 Residence Key (Room 003)
+33 Medal Of Eagle
+34 Medal Of Wolf
+35 Stone & Metal Object (To Open The Big Metal Door In Mansion)
+36 Laboratory Key
+37 Laboratory Key (Micro Photon)
+38 Star Crest
+39 Wind Crest
+3A Sun Crest
+3B Moon Crest
+3C Crank (green Handle)
+3D Crank (red Handle)
+3E Closet Key
+3F Emblem Key (The Spencers Room Key)
+40 Stone Ring
+41 Metal Object
+42 Survival Knife
+43 Battery
+44 Ink Ribbon
+45 Emblem
+46 Gold Emblem
+47 Sheet Music
+48 Red Gemstone
+49 Blue Gemstone
+4A Yellow Gemstone
+4B Broken Shotgun
+4C Chemical To Use On Plants
+4D Lighter (open)
+4E Serum
+4F Transceiver
+50 Empty Bottle
+51 Water
+52 UMB No.3
+53 NP-004
+54 Yellow-6
+55 UMB No.7
+56 UMB N0.10
+57 VP-017
+58 V-Jolt
+59 It Hasnt Been Used
+5A Redbook
+5B Last Book Vol.1
+5C Last Book Vol.2
+5D MO Disk
+5E MO Disk
+5F MO Disk
+60 Dog Whistle
+61 Fuse Unit
+62 Capsule
+63 Jewelry Box
+64 Insecticide Spary
+65 First Aid Box
+66 Jewelry Box
+67 Jewelry Box
+68 First Aid Box
+69 First Aid Box
+6A Signal Rockets
+6B Broken Flamethower
+6C Wooden Mount
+6D Slide Filter
+6E Control Room Key
+6F Fuse Supply Capsule
+70 Dagger
+71 Flash Grenade
+72 Stun Gun
+73 Bee Specimen
+74 Lure Of A Bee
+75 Fish Hook
+76 lure Of A Bee
+77 x-Ray
+78 X-Ray
+79 Battery Pack
+7A Shaft
+7B Cylinder
+7C Cylinder Shaft
+7D Death Mask (broken)
+7E Death Mask (full)
+7F Death Mask
+80 Death Mask
+81 Musical Score
+82 Map
+83 First Aid Box
+84 First Aid Box

@@ -1,0 +1,88 @@
+9502721 Manual inicio
+524289 Cuchillo
+589836 Pistola									0x9 00 0C
+1114118 LLamas
+2424835 Gas BOW
+3866625 Emblema de halcón
+5373953 Extintor
+5373952 Extintor vacio
+5505025 LLave candado
+5570561 TG-01
+5636097 Emblema aleación
+1310721 Spray									0x14 00 01
+1376257 Hierba Verde							0x15 00 01
+9306212 Calico M-100P							0x8E 00 64
+4587521 Prueba marina
+4521985 Pruebla ejercito
+4653057 Prueba aire
+8388609 Maletín
+2031619 Cinta de tinta
+4784129 Tarjeta identificacion
+1441793 Hierva roja								0x16 00 01
+3473409 Timón
+4063233 Tarjeta peligro biológico
+1179678 Flechas
+2228224 Metralletas
+2162688 Luger de oro
+4390913 Llave de plata
+2293770 Pólvora ballesta
+3670017 Placa de águila
+393222 Lanzagranadas							0x6 00 06
+5046273 Dibujo esqueletico
+4456449 LLave oro
+3342337 Ojo de cristal
+6750209 Espada oxidada
+3407873 Rollo de piano
+6815745 Hemostático
+3997697 Hormiga rey
+3932161 Hormiga reina
+5111809 Placa caja música
+7733249 Libélula plata
+7864321 Objeto ala
+4915201 Llave aeropuerto
+5898241 Llave sala minas
+5963777 Código de barras
+5832705 Llave sala de máquinas
+5767169 Válvula Octogonal
+1507329 Hierva azul								0x17 00 01
+2555905 Máscara de gas
+196615 Rifle francotirador						0x3 00 07
+136314886 - Infinite Magnum 
+134938625 - Linear Launcher 
+135135239 - Infinite shotgun shells 
+134283265 - Rocket Launcher 
+671547422 - Infinite Bowgun with gunpowder arrows 
+134349100 - Ak-47 Infinite 
+135200774 - Granadas Explosivas infinite 
+135266310 - Granadas Ácidas infinite 			0x8 10 00 06
+135331846 - Granadas de Fogo infinite 
+136642563 - B.O.W Gas rounds infinite 
+2424835 B.O.W Rounds 
+1114118 Flame Rounds 
+1048588 Acid Rounds 
+2359326 Gun Powder Arrow
+8912897 Replica de luger
+6160385 Bateria
+6356993 Llave de alm. quim.
+6094849 Tirador de puerta
+6488065 Benigno E
+6422529 Benigno a
+9437185 Mezcla benigna
+5308417 Alabarda
+6291457 Llave plat. gir
+7667713 Piso papel
+6881281 Tarjeta seguridad
+7012353 Collar de alexia
+7077889 Joya de alexia
+2818049 Pendiente Alexan
+2883585 Joya Alexander
+2949121 Anillo Alfred
+3014657 Joya Alfred
+7405569 Enchufe
+7471105 Valvula Cuadrada
+7864322 Ala
+3538945 Llave grua
+7274497 Joya Roja
+7340033 Joya Azul
+5177345 Libelula
+4325377 Libelula de oro
