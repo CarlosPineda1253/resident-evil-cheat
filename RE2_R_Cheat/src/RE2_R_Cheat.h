@@ -28,15 +28,15 @@ class Addr_Info{
 };
 
 unsigned long PrintProcessNameAndID(unsigned long processID);
-Addr_Info Search_Memory(unsigned long processID, std::vector<unsigned char> to_find, int size);
+Addr_Info Search_Memory(unsigned long processID, std::vector<unsigned char> to_find);
 Addr_Info Search_Memory(unsigned long processID, std::vector<unsigned char> to_find, unsigned long long offset);
 unsigned long long PCmain();
 unsigned long long PCmain_ammo_Matilda();
-unsigned long long Search_Memory_Wildcard(DWORD process_id, std::vector<unsigned char> to_find1, std::vector<unsigned char> to_find2, unsigned long long Start_Addr);
-unsigned long long PCmain_Ammo_Shotgun(unsigned long long Start_Addr);
-unsigned long long PCmain_Ammo_M19(unsigned long long Start_Addr);
-unsigned long long PCmain_Ammo_Lightning_Hawk(unsigned long long Start_Addr);
-unsigned long long PCmain_Hand_Grenade(unsigned long long Start_Addr);
-unsigned long long PCmain_Flash_Grenade(unsigned long long Start_Addr);
+unsigned long long Search_Memory_Wildcard(DWORD process_id, std::vector<unsigned char> to_find1, unsigned long long Start_Addr);
+unsigned long long PCmain_Ammo_Shotgun();
+unsigned long long PCmain_Ammo_M19();
+unsigned long long PCmain_Ammo_Lightning_Hawk();
+unsigned long long PCmain_Hand_Grenade();
+unsigned long long PCmain_Flash_Grenade();
 
 #endif /* RE2R_CHEAT_H_ */
